@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<project basedir="." default="compile">
+  <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="lib/compiler.jar"/>
+
+  <target name="compile">
+    <jscomp compilationLevel="simple" warning="verbose" debug="false" output="WebContent/scripts/tzivi.js">
+
+<!--       <externs dir="${basedir}/src"> -->
+<!--         <file name="extern.js"/> -->
+<!--       </externs> -->
+
+      <sources dir="${basedir}/js/tzivi">
+        <file name="tzivi-images.js"/>
+        <file name="tzivi.js"/>
+      </sources>
+
+<!--       <sources dir="${basedir}/other"> -->
+<!--         <file name="simple3.js"/> -->
+<!--       </sources> -->
+
+    </jscomp>
+    
+  </target>
+ </project>
