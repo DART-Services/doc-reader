@@ -11,8 +11,9 @@
 <!--       </externs> -->
 
       <sources dir="${basedir}/js/tzivi">
-        <file name="tzivi-images.js"/>
-        <file name="tzivi.js"/>
+<!--         <file name="tzivi-images.js"/> -->
+<!--         <file name="tzivi.js"/> -->
+        <file name="hello.js"/>
       </sources>
 
 <!--       <sources dir="${basedir}/other"> -->
