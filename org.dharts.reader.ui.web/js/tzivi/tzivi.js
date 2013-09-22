@@ -42,13 +42,13 @@ var ZOOM_EVENT         = "zoom",
 // ===================================
 // STATIC PRIVATE VARIABLES 
 // ===================================
-var VP_LOGGER = "IDCH.tzivi.Viewport",
-
-    CSS_VIEWPORT = "viewport",      /** The top-level div of the viewport */
-    CSS_VP_PANE  = "content-pane",  /** The content pane div for the viewport. */ 
-    CSS_LAYER    = "layer",         /** The layer panes that support content display. */
-    
-    OUT_OF_BOUNDS = "OoB";          /** Out of bounds code for x,y positions. */
+//var VP_LOGGER = "IDCH.tzivi.Viewport",
+//
+//    CSS_VIEWPORT = "viewport",      /** The top-level div of the viewport */
+//    CSS_VP_PANE  = "content-pane",  /** The content pane div for the viewport. */ 
+//    CSS_LAYER    = "layer",         /** The layer panes that support content display. */
+//    
+//    OUT_OF_BOUNDS = "OoB";          /** Out of bounds code for x,y positions. */
 
 /**
  * Global variable (within this file) for auto-generating viewport ID values.
